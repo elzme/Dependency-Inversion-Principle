@@ -158,7 +158,7 @@ and board (that ```Game``` will expect). By using this pattern of
 having modules be dependent on **abstractions**, rather than on
 specific implementations, we have complete flexibility to reuse our
 code in many different ways. As mentioned above, we can swap out
-different Player and Board modules to play different sorts of games.
+different player and board modules to play different sorts of games.
 We should also make sure that our game's ```Setup```, and
 ```Rules``` are completely independent of the specific game details
 as well. This way we can decide, at runtime, how we would like our
